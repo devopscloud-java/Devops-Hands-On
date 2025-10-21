@@ -1,0 +1,37 @@
+  1  mkdir assignment-2
+  2  assignment-2
+  3  cd assignment-2
+  4  ls
+  5  git init
+  6  touch feature1.txt feature2.txt
+  7  ls
+  8  echo "Initial commit" > main.txt
+  9  git add main.txt
+ 10  git commit -m "Initial commit"
+ 11  git log
+ 12  git branch
+ 13  git branch develop
+ 14  git branch feature1
+ 15  git branch feature2
+ 16  git branch
+ 17  clear
+ 18  git switch develop
+ 19  touch develop.txt
+ 20  git status
+ 21  git checkout master
+ 22  ls
+ 23  git checkout develop
+ 24  git stash develop.txt
+ 25  git stash
+ 26  git status
+ 27  git log
+ 28  clear
+ 29  git checkout feature1
+ 30  touch new.txt
+ 31  ls
+ 32  git add new.txt
+ 33  git commit -m "add new.txt"
+ 34  git checkout develop
+ 35  git stash pop
+ 36  git add develop.txt
+ 37  git commit -m "add develop.txt"
