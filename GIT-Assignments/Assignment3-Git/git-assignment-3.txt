@@ -1,0 +1,34 @@
+  472  mkdir Assignment-3
+  473  cd Assignment-3
+  474  git init
+  475  git branch
+  476  echo "Initial commit" > main.txt
+  477  git add main.txt
+  478  git commit -m "Initial commit"
+  479  git log
+  480  git branch
+  481  git branch Develop
+  482  git branch F1
+  483  git branch f2
+  484  git branch
+  485  clear
+  486  git checkout Develop
+  487  touch develop.txt
+  488  git checkout F1
+  489  touch f1.txt
+  490  git checkout f2
+  491  touch f2.txt
+  492  git checkout Develop
+  493  git remote add origin https://github.com/Yellamma369/git001.git
+  494  git puch -u origin Develop
+  495  git push -u origin Develop
+  496  git checkout F1
+  497  git remote add origin https://github.com/Yellamma369/git001.git
+  498  git push -u origin F1
+  499  clear
+  500  git checkout f2
+  501  git push -u origin f2
+  502  git checkout master
+  503  git branch -d f2
+  504  git branch
+  505  git push origin --delete f2
