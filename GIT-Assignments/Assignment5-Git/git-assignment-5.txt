@@ -1,0 +1,33 @@
+  557  mkdir Assignment-5
+  558  clear
+  559  ls
+  560  cd Assignment-5
+  561  git init
+  562  git branch
+  563  echo "Initial commit" > main.txt
+  564  git add main.txt
+  565  git commit -m "Initial commit"
+  566  git branch
+  567  git branch Feature1
+  568  git branch Feature2
+  569  git branch Hotfix
+  570  git branch
+  571  clear
+  572  git checkout Feature1
+  573  touch F1.txt
+  574  ls
+  575  git add F1.txt
+  576  git commit -m "Commiting F1.txt"
+  577  git checkout Feature2
+  578  touch F2.txt
+  579  git add F2.txt
+  580  git commit -m "commiting F2.txt"
+  581  git checkout Hotfix
+  582  nano urgent.txt
+  583  git add urgent.txt
+  584  git commit -m "updated the solution of bug in urgent.txt"
+  585  clear
+  586  git checkout master
+  587  git merge Feature1 -m "Merging Feature1 into master"
+  588  git merge Feature2 -m "Merging Feature2 into master"
+  589  git merge Hotfix -m "Merging Hotfix into master"
