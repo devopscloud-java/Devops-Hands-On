@@ -1,0 +1,38 @@
+  509  mkdir Assignment-4
+  510  cd Assignment-4
+  511  git init
+  512  echo "Initial commit" > main.txt
+  513  git add main.txt
+  514  git commit -m "Initial commit"
+  515  git log
+  516  git branch
+  517  touch master.txt
+  518  git add master.txt
+  519  git commit -m "add master.txt"
+  520  git branch public1
+  521  git branch public2
+  522  git branch private
+  523  git branch
+  524  clear
+  525  git checkout public1
+  526  touch public1.txt
+  527  git add public1.txt
+  528  git commit -m "add public1.txt"
+  529  clear
+  530  git checkout master
+  531  git merge public1 -m "merge public1 into master"
+  532  clear
+  533  git merge public2 -m "merge public2 into master"
+  534  git checkout private
+  535  echo "Edited by private branch" >> master.txt
+  536  git add master.txt
+  537  git commit -m "update master.txt in private branch"
+  538  git checkout master
+  539  git merge private -m "merge private changes into master"
+  540  git checkout public1
+  541  git merge master -m "update public1 with new master changes"
+  542  git checkout public2
+  543  git merge master -m "update public2 with new master changes"
+  544  clear
+  545  git checkout private
+  546  git merge master -m "update private branch with final master changes"
