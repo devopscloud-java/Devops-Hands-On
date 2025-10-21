@@ -1,0 +1,11 @@
+  1  mkdir Assignment-1
+  2  ls
+  3  cd Assignment-1
+  4  touch Code.txt Log.txt Output.txt
+  5  ls
+  6  git init
+  7  git add Code.txt Output.txt
+  8  git status
+  9  git commit -m "add Code.txt,Output.txt"
+  10 git remote add origin https://github.com/Yellamma369/git001.git
+  11 git push -u origin master
