@@ -7,13 +7,13 @@ Repository Structure
 
 git-assignment/
 │
-├── master.txt            # File committed on master branch
-├── public1.txt           # File committed on public1 branch
-├── public2.txt           # File committed on public2 branch
-├── develop.txt           # File committed on develop branch
-├── feature1.txt          # File committed on feature1 branch
-├── feature2.txt          # File committed on feature2 branch
-└── README.md             # This README file
+├── master.txt              # File committed on master branch
+├── public1.txt             # File committed on public1 branch
+├── public2.txt             # File committed on public2 branch
+├── develop.txt             # File committed on develop branch
+├── feature1.txt            # File committed on feature1 branch
+├── feature2.txt            # File committed on feature2 branch
+└── README.md               # This README file
 
 Tasks Performed
 
