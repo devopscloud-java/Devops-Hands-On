@@ -3,18 +3,6 @@ Assignment Overview
 
 This directory contains tasks and exercises related to Git version control, including branching, merging, stashing, and pushing to GitHub. The objective is to practice and demonstrate proficiency in Git operations.
 
-Repository Structure
-
-git-assignment
-│
-├── master.txt              # File committed on master branch
-├── public1.txt             # File committed on public1 branch
-├── public2.txt             # File committed on public2 branch
-├── develop.txt             # File committed on develop branch
-├── feature1.txt            # File committed on feature1 branch
-├── feature2.txt            # File committed on feature2 branch
-└── README.md               # This README file
-
 Tasks Performed
 
 Branching
