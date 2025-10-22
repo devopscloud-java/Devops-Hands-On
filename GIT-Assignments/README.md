@@ -5,7 +5,7 @@ This directory contains tasks and exercises related to Git version control, incl
 
 Repository Structure
 
-git-assignment/
+git-assignment
 │
 ├── master.txt              # File committed on master branch
 ├── public1.txt             # File committed on public1 branch
