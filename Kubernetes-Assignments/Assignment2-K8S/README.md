@@ -13,21 +13,6 @@ Exposed the NGINX deployment using a NodePort service.
 
 YAML file used (nginx-nodeport.yaml):
 
-apiVersion: v1
-kind: Service
-metadata:
-  name: nginx-nodeport
-spec:
-  type: NodePort
-  selector:
-    app: nginx
-  ports:
-    - protocol: TCP
-      port: 80        # Port inside the cluster
-      targetPort: 80  # Port on the pod
-      nodePort: 30001 # NodePort exposed externally (30000-32767)
-
-
 Applied the service:
 
 kubectl apply -f nginx-nodeport.yaml
