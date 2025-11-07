@@ -1,4 +1,4 @@
-This directory contains the hanhs on of ansible assignments with screenshots
+This directory contains the following hands on ansible assignments with screenshots.
 
 1.Assignment
 ===============
