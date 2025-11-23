@@ -1,1 +1,1 @@
-Terraform examples with screenshot as part of my practice
+Terraform few examples with screenshots as part of my practice
